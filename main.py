@@ -57,7 +57,7 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout()
         layout.addWidget(QLabel("Made by Sigma Boy 😎"))
         github_btn = QPushButton("Open GitHub")
-        github_btn.clicked.connect(lambda: os.system("start https://github.com/tonrepo"))
+        github_btn.clicked.connect(lambda: os.system("start https://github.com/bowser-2077/SigmaPresence"))
         update_btn = QPushButton("Update")
         update_btn.clicked.connect(self.run_updater)
         layout.addWidget(github_btn)
